@@ -1,0 +1,254 @@
+%-------------------------
+% Resume in Latex
+% Author : Akash Chowdhury
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{fontawesome5}
+\usepackage{multicol}
+\usepackage{graphicx}
+\setlength{\multicolsep}{-3.0pt}
+\setlength{\columnsep}{-1pt}
+\input{glyphtounicode}
+
+\RequirePackage{tikz}
+\RequirePackage{xcolor}
+\RequirePackage{fontawesome}
+\usepackage{tikz}
+\usetikzlibrary{svg.path}
+
+
+\definecolor{cvblue}{HTML}{0E5484}
+\definecolor{black}{HTML}{130810}
+\definecolor{darkcolor}{HTML}{0F4539}
+\definecolor{cvgreen}{HTML}{3BD80D}
+\definecolor{taggreen}{HTML}{00E278}
+\definecolor{SlateGrey}{HTML}{2E2E2E}
+\definecolor{LightGrey}{HTML}{666666}
+\colorlet{name}{black}
+\colorlet{tagline}{darkcolor}
+\colorlet{heading}{darkcolor}
+\colorlet{headingrule}{cvblue}
+\colorlet{accent}{darkcolor}
+\colorlet{emphasis}{SlateGrey}
+\colorlet{body}{LightGrey}
+
+
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+% \pagestyle{fancy}
+% \fancyhf{}  % clear all header and footer fields
+% \fancyfoot{}
+% \renewcommand{\headrulewidth}{0pt}
+% \renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.6in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1.19in}
+\addtolength{\topmargin}{-.7in}
+\addtolength{\textheight}{1.4in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large\bfseries
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\classesList}[4]{
+    \item\small{
+        {#1 #2 #3 #4 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{1.0\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{\large#1} & \textbf{\small #2} \\
+      \textit{\large#3} & \textit{\small #4} \\
+      
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{1.001\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & \textbf{\small #2}\\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemi{$\vcenter{\hbox{\tiny$\bullet$}}$}
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.0in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+
+\newcommand\sbullet[1][.5]{\mathbin{\vcenter{\hbox{\scalebox{#1}{$\bullet$}}}}}
+\documentclass{article}
+\usepackage{graphicx}
+\usepackage{calc}
+
+\newcommand*{\pin}{%
+  \includegraphics[height=\heightof{M}]{pin}%
+}
+\documentclass{scrartcl}
+\usepackage{fontawesome}
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING----------
+
+\begin{center}
+    {\Huge \scshape\color{blue} Akash Chowdhury} \\ \vspace{2pt}
+   {\faMapMarker~Agartala,Tripura} \\ \vspace{4pt}
+    \small \href{tel:+91 8131000537}{ \raisebox{-0.1\height}\faPhone\ +91-8131000537} ~} \href{mailto:chowdhuryakash950@gmail.com}{\raisebox{-0.2\height}\faEnvelope\ {chowdhuryakash950@gmail.com}} ~ 
+    \href{https://linkedin.com/in/akash-chowdhury}{\raisebox{-0.2\height}\faLinkedinSquare\ akash-chowdhury}}  ~
+    \href{https://github.com/Akash-Chowdhury}{\raisebox{-0.2\height}\faGithub\ {Akash-Chowdhury}} ~
+    \vspace{}
+\end{center}
+
+
+%-----------EDUCATION-----------
+\section{EDUCATION}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {National Institute of Technology, Agartala.}{2020 -- NOW}\vspace{}
+      {B.TECH, Computer Science and Engineering - {CGPA} - {8.39}.}
+  \resumeSubHeadingListEnxd
+  
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Vivekananda Shishu Niketan, Bishalgarh, Tripura}{}\vspace{}
+      {TBSE \textbf{12 th} Board Exam(2020)  - \textbf{Percentage} - \textbf{80\%}\vspace{}
+      
+      {TBSE \textbf{10 th} Board Exam(2018)  - \textbf{Percentage} - \textbf{87\%}}
+  \resumeSubHeadingListEnd
+
+
+%-----------PROJECTS-----------
+\section{PERSONAL PROJECTS}
+    \vspace{}
+    \resumeSubHeadingListStart
+      \resumeProjectHeading
+          {\href{https://moviz-phi.vercel.app/}{\textbf{\large{\color{blue}$\sbullet[1] \hspace{0.1cm}${Movie Searching App}}} \href{https://moviz-phi.vercel.app/}} \large{{}}}
+          \vspace{}
+
+            \resumeItem{\normalsize{ This is a movie searching app. It uses The Movie Database(TMDB) api to fetch the various information related to a movie of users choice by using \textbf{Rest API} concept. It is developed by \textbf{ReactJs}, \textbf{Redux}, \textbf{ViteJs}, \textbf{SCSS}, \textbf{Material UI}.  It fatches the Tranding Movies and TV Shows from the TMDB database.}}\\
+            \vspace{4pt}
+            \textbf{Technology Used}:- HTML, SCSS, Rest API ReactJs, Redux, ViteJs. Material UI}}\\
+          \resumeProjectHeading
+        {\href{https://akash-chowdhury.github.io/SHORTEST-PATH-VISUALIZER/}{\textbf{\large{\color{blue}$\sbullet[1] \hspace{0.1cm}${Shortest Path Visualizer}}} \href{https://akash-chowdhury.github.io/SHORTEST-PATH-VISUALIZER/}} \large{{}}}
+        \vspace{}
+        
+            \resumeItem{\normalsize{Implemented \textbf{A*}, \textbf{Dijkstra}, \textbf{BFS}, \textbf{Greedy BFS} Algorithms using \textbf{HTML}, \textbf{CSS}, \textbf{Javascript}. The aim of the project is to find shortest path between two points.\\
+            \vspace{8pt}
+            \textbf{Technology Used}:- HTML, CSS & JavaScript}}\\
+            \resumeProjectHeading
+          
+            \resumeProjectHeading
+          {\href{http://myphp-project01.epizy.com/}{\textbf{\large{\color{blue}$\sbullet[1] \hspace{0.1cm}${E-Commerce app}}} \href{http://myphp-project01.epizy.com/}} \large{{}}}
+          \vspace{}
+            \resumeItem{\normalsize{ Implements the functioning of an Fullstack E-commerce Website that performs various functions like sign up, login, logout, add to cart, add items as an admin and much more, developed by using \textbf{PHP} and \textbf{MySQL}. }}
+            
+            \resumeProjectHeading
+            {\href{https://akash-chowdhury.github.io/Attendence-System/}{\textbf{\large{\color{blue}$\sbullet[1] \hspace{0.1cm}${Attendence System}}} \href{https://akash-chowdhury.github.io/Attendence-System//}} \large{{}}} 
+          \vspace{}
+          \vspace{}
+            \resumeItem{\normalsize{Developed a basic attendence system app by \textbf{ReactJs}. The project is developed for daily student attendence in Schools, Colleges & Institutes.\\
+             \vspace{8pt}
+            \textbf{Technology Used}:- React Js}}}}
+          
+          
+            
+    \resumeSubHeadingListEnd
+%
+
+
+%-----------EXPERIENCE-----------
+%-----------PROGRAMMING SKILLS-----------
+%------RELEVANT COURSEWORK-------
+ \section{SKILLS}
+
+    \small{\item{
+     $\sbullet[.75] \hspace{0.1cm}$\textbf{\normalsize{Programming Languages:}}{ \normalsize{C++, Java, C, Python, PHP, Java Script.}} \\
+     \vspace{8pt}
+    $\sbullet[.75] \hspace{0.1cm}$\textbf{\normalsize{Technology Used:}}{ \normalsize{HTML, CSS, Bootstrap, ReactJS, NodeJS, Spring Boot, Rest API.}}\\
+    \vspace{8pt}
+    $\sbullet[.75] \hspace{0.1cm}$\textbf{\normalsize{Database and Servers:}}{ \normalsize{MySQL, PostgreSQL, Apache, Apache Tomcat, MongoDB.}}\\
+    \vspace{8pt}
+     $\sbullet[.75] \hspace{0.1cm}$\textbf{\normalsize{Developer Tools:}}{ \normalsize{Visual Studio Code, Git, Eclipse IDE, Postman, Jupyter Notebook.}} \\
+     \vspace{8pt}
+     $\sbullet[.75] \hspace{0.1cm}$\textbf{\normalsize{CS Fundamentals:}}{ \normalsize{DSA, OOPS, DBMS, OS, CN, Machine Learning.}} \\
+   \\
+    }}
+
+ %-----------CERTIFICATIONS---------------
+\section{ACHIEVEMENTS}
+
+\small\item
+$\sbullet[.75] \hspace{0.1cm}$ {\href{https://leetcode.com/Akash01/}{ 300+ problems solved on LeetCode, GFG And Other coding platforms.}} \hspace{1cm}\\
+\vspace{5pt}
+$\sbullet[.75] \hspace{0.1cm}$ {\href{https://www.hackerrank.com/certificates/275c7c102a1b}{ Problem Solving skills (Intermediate) Certificate on Hackerrank.}} \hspace{1.6cm}\\
+\vspace{5pt}
+$\sbullet[.75] \hspace{0.1cm}$ {\href{https://github.com/Akash-Chowdhury/MY-CERTIFICATES/blob/main/devtown%20web%20development.pdf}{ Microsoft Learn Student Ambassador and Google Development Student Club Certificate on Full stack Web Development      
+and Cloud Computing with AWS.}}\\
+\vspace{}
+
+
+
+\end{document}
